@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_main_bottom" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/scdream6"
+        android:text="수면 컨디션"
+        android:textColor="@color/colorBLack"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/scdream8"
+        android:text="+"
+        android:textColor="@color/colorBLack"
+        android:textSize="22sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- cold button start -->
+    <ImageButton
+        android:id="@+id/btn_cold"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/btn_rect_main_bottom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_cold"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/icon_cold"
+        app:layout_constraintLeft_toLeftOf="@id/btn_cold"
+        app:layout_constraintRight_toRightOf="@id/btn_cold"
+        app:layout_constraintTop_toTopOf="@id/btn_cold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/scdream3"
+        android:text="감기"
+        android:textColor="@color/colorBLack"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@id/btn_cold"
+        app:layout_constraintRight_toRightOf="@id/btn_cold"
+        app:layout_constraintTop_toBottomOf="@id/image_cold" />
+    <!-- cold button end -->
+
+    <!-- health button start -->
+    <ImageButton
+        android:id="@+id/btn_health"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/btn_rect_main_bottom"
+        app:layout_constraintLeft_toRightOf="@id/btn_cold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_health"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/icon_health"
+        app:layout_constraintLeft_toLeftOf="@id/btn_health"
+        app:layout_constraintRight_toRightOf="@id/btn_health"
+        app:layout_constraintTop_toTopOf="@id/btn_health" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/scdream3"
+        android:text="운동"
+        android:textColor="@color/colorBLack"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@id/btn_health"
+        app:layout_constraintRight_toRightOf="@id/btn_health"
+        app:layout_constraintTop_toBottomOf="@id/image_health" />
+    <!-- health button end -->
+
+    <!-- drink button start -->
+    <ImageButton
+        android:id="@+id/btn_drink"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/btn_rect_main_bottom"
+        app:layout_constraintLeft_toRightOf="@id/btn_health"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_drink"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/icon_drink"
+        app:layout_constraintLeft_toLeftOf="@id/btn_drink"
+        app:layout_constraintRight_toRightOf="@id/btn_drink"
+        app:layout_constraintTop_toTopOf="@id/btn_drink" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/scdream3"
+        android:text="음주"
+        android:textColor="@color/colorBLack"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@id/btn_drink"
+        app:layout_constraintRight_toRightOf="@id/btn_drink"
+        app:layout_constraintTop_toBottomOf="@id/image_drink" />
+    <!-- drink button end -->
+
+    <!-- tired button start -->
+    <ImageButton
+        android:id="@+id/btn_tired"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/btn_rect_main_bottom"
+        app:layout_constraintLeft_toRightOf="@id/btn_drink"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_tired"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/icon_drink"
+        app:layout_constraintLeft_toLeftOf="@id/btn_tired"
+        app:layout_constraintRight_toRightOf="@id/btn_tired"
+        app:layout_constraintTop_toTopOf="@id/btn_tired" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/scdream3"
+        android:text="피로"
+        android:textColor="@color/colorBLack"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@id/btn_tired"
+        app:layout_constraintRight_toRightOf="@id/btn_tired"
+        app:layout_constraintTop_toBottomOf="@id/image_tired" />
+    <!-- tired button end -->
+
+    <!-- sleep start button start -->
+    <ImageButton
+        android:id="@+id/btn_start_sleep"
+        android:layout_width="260dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/btn_rect_main_start_sleep"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_cold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/scdream6"
+        android:text="수면 시작"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_start_sleep"
+        app:layout_constraintEnd_toEndOf="@+id/btn_start_sleep"
+        app:layout_constraintStart_toStartOf="@+id/btn_start_sleep"
+        app:layout_constraintTop_toTopOf="@+id/btn_start_sleep" />
+    <!-- sleep start button end -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

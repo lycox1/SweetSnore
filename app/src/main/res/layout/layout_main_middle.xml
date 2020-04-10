@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_main_middle"/>
+
+    <!-- sleep alarm button start -->
+    <ImageButton
+        android:id="@+id/btn_sleep_alarm"
+        android:layout_width="90dp"
+        android:layout_height="117dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/btn_rect_main_middle"
+        android:elevation="15dp" />
+
+    <ImageView
+        android:id="@+id/iv_sleep_alarm_circle"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:elevation="15dp"
+        android:background="@drawable/btn_circle_small"
+        app:layout_constraintRight_toRightOf="@id/btn_sleep_alarm"
+        app:layout_constraintTop_toTopOf="@id/btn_sleep_alarm"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        />
+    <TextView
+        android:id="@+id/tv_sleep_alarm_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:25"
+        android:textColor="@color/colorBLack"
+        android:textSize="18sp"
+        android:fontFamily="@font/scdream2"
+        app:layout_constraintLeft_toLeftOf="@id/btn_sleep_alarm"
+        app:layout_constraintRight_toRightOf="@id/btn_sleep_alarm"
+        app:layout_constraintTop_toTopOf="@id/btn_sleep_alarm"
+        android:layout_marginTop="38dp"
+        android:elevation="15dp" />
+
+    <TextView
+        android:id="@+id/tv_sleep_alarm_timer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수면 알람"
+        android:textColor="@color/colorBLack"
+        android:textSize="14sp"
+        android:fontFamily="@font/scdream3"
+        app:layout_constraintLeft_toLeftOf="@id/btn_sleep_alarm"
+        app:layout_constraintRight_toRightOf="@id/btn_sleep_alarm"
+        app:layout_constraintTop_toBottomOf="@id/tv_sleep_alarm_timer"
+        android:layout_marginTop="8dp"
+        android:elevation="15dp" />
+
+    <TextView
+        android:id="@+id/tv_sleep_alarm_timer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="잠자는 시간 알림"
+        android:textColor="@color/colorGray1"
+        android:textSize="10sp"
+        android:fontFamily="@font/scdream3"
+        app:layout_constraintLeft_toLeftOf="@id/btn_sleep_alarm"
+        app:layout_constraintRight_toRightOf="@id/btn_sleep_alarm"
+        app:layout_constraintTop_toBottomOf="@id/tv_sleep_alarm_timer2"
+        android:layout_marginTop="3dp"
+        android:elevation="15dp" />
+
+    <!-- sleep alarm button end -->
+    <!-- sleep song button start -->
+
+    <ImageButton
+        android:id="@+id/btn_sleep_song"
+        android:layout_width="90dp"
+        android:layout_height="117dp"
+        app:layout_constraintLeft_toRightOf="@id/btn_sleep_alarm"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/btn_rect_main_middle"
+        android:elevation="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_sleep_song_circle"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:elevation="15dp"
+        android:background="@drawable/btn_circle_small"
+        app:layout_constraintRight_toRightOf="@id/btn_sleep_song"
+        app:layout_constraintTop_toTopOf="@id/btn_sleep_song"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        />
+    <TextView
+        android:id="@+id/tv_sleep_song_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:25"
+        android:textColor="@color/colorBLack"
+        android:textSize="18sp"
+        android:fontFamily="@font/scdream2"
+        app:layout_constraintLeft_toLeftOf="@id/btn_sleep_song"
+        app:layout_constraintRight_toRightOf="@id/btn_sleep_song"
+        app:layout_constraintTop_toTopOf="@id/btn_sleep_song"
+        android:layout_marginTop="38dp"
+        android:elevation="15dp" />
+
+    <TextView
+        android:id="@+id/tv_sleep_song_timer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수면 알람"
+        android:textColor="@color/colorBLack"
+        android:textSize="14sp"
+        android:fontFamily="@font/scdream3"
+        app:layout_constraintLeft_toLeftOf="@id/btn_sleep_song"
+        app:layout_constraintRight_toRightOf="@id/btn_sleep_song"
+        app:layout_constraintTop_toBottomOf="@id/tv_sleep_song_timer"
+        android:layout_marginTop="8dp"
+        android:elevation="15dp" />
+
+    <TextView
+        android:id="@+id/tv_sleep_song_timer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="잠자는 시간 알림"
+        android:textColor="@color/colorGray1"
+        android:textSize="10sp"
+        android:fontFamily="@font/scdream3"
+        app:layout_constraintLeft_toLeftOf="@id/btn_sleep_song"
+        app:layout_constraintRight_toRightOf="@id/btn_sleep_song"
+        app:layout_constraintTop_toBottomOf="@id/tv_sleep_song_timer2"
+        android:layout_marginTop="3dp"
+        android:elevation="15dp" />
+    <!-- sleep song button end -->
+
+    <!-- morning alarm button start -->
+    <ImageButton
+        android:id="@+id/btn_morning_alarm"
+        android:layout_width="90dp"
+        android:layout_height="117dp"
+        app:layout_constraintLeft_toRightOf="@id/btn_sleep_song"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/btn_rect_main_middle"
+        android:elevation="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_morning_alarm_circle"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:elevation="15dp"
+        android:background="@drawable/btn_circle_small"
+        app:layout_constraintRight_toRightOf="@id/btn_morning_alarm"
+        app:layout_constraintTop_toTopOf="@id/btn_morning_alarm"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        />
+    <TextView
+        android:id="@+id/tv_morning_alarm_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:25"
+        android:textColor="@color/colorBLack"
+        android:textSize="18sp"
+        android:fontFamily="@font/scdream2"
+        app:layout_constraintLeft_toLeftOf="@id/btn_morning_alarm"
+        app:layout_constraintRight_toRightOf="@id/btn_morning_alarm"
+        app:layout_constraintTop_toTopOf="@id/btn_morning_alarm"
+        android:layout_marginTop="38dp"
+        android:elevation="15dp" />
+
+    <TextView
+        android:id="@+id/tv_sleep_song_timer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수면 알람"
+        android:textColor="@color/colorBLack"
+        android:textSize="14sp"
+        android:fontFamily="@font/scdream3"
+        app:layout_constraintLeft_toLeftOf="@id/btn_morning_alarm"
+        app:layout_constraintRight_toRightOf="@id/btn_morning_alarm"
+        app:layout_constraintTop_toBottomOf="@id/tv_morning_alarm_timer"
+        android:layout_marginTop="8dp"
+        android:elevation="15dp" />
+
+    <TextView
+        android:id="@+id/tv_morning_alarm_timer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="잠자는 시간 알림"
+        android:textColor="@color/colorGray1"
+        android:textSize="10sp"
+        android:fontFamily="@font/scdream3"
+        app:layout_constraintLeft_toLeftOf="@id/btn_morning_alarm"
+        app:layout_constraintRight_toRightOf="@id/btn_morning_alarm"
+        app:layout_constraintTop_toBottomOf="@id/tv_sleep_song_timer2"
+        android:layout_marginTop="3dp"
+        android:elevation="15dp" />
+
+    <!-- morning alarm button end -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
