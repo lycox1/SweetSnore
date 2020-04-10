@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SleepAlarmSettingActivity">
+
+    <TextView
+        android:id="@+id/SleepAlarmSettingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="잠자는 시간의 알람을 설정합니다"
+        android:fontFamily="@font/scdream5"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="32dp"
+        />
+
+    <View
+        android:id="@+id/SleepAlarmSettingLine1"
+        android:layout_width="290dp"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingTitle"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorGray3"/>
+
+    <TextView
+        android:id="@+id/SleepAlarmSettingMenu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알람켜기"
+        app:layout_constraintStart_toStartOf="@+id/SleepAlarmSettingLine1"
+        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        />
+
+    <View
+        android:id="@+id/SleepAlarmSettingLine2"
+        android:layout_width="290dp"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingMenu1"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGray3"/>
+
+    <TextView
+        android:id="@+id/SleepAlarmSettingMenu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알람시간"
+        app:layout_constraintStart_toStartOf="@+id/SleepAlarmSettingLine2"
+        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        />
+    <View
+        android:id="@+id/SleepAlarmSettingLine3"
+        android:layout_width="290dp"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingMenu2"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGray3"/>
+
+    <TextView
+        android:id="@+id/SleepAlarmSettingMenu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="반복"
+        app:layout_constraintStart_toStartOf="@+id/SleepAlarmSettingLine3"
+        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        />
+    <View
+        android:id="@+id/SleepAlarmSettingLine4"
+        android:layout_width="290dp"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingMenu3"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGray3"/>
+
+    <TextView
+        android:id="@+id/SleepAlarmSettingMenu4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알람소리"
+        app:layout_constraintStart_toStartOf="@+id/SleepAlarmSettingLine4"
+        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        />
+    <View
+        android:id="@+id/SleepAlarmSettingLine5"
+        android:layout_width="290dp"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingMenu4"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGray3"/>
+
+    <TextView
+        android:id="@+id/SleepAlarmSettingMenu5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="소리크기"
+        app:layout_constraintStart_toStartOf="@+id/SleepAlarmSettingLine5"
+        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        />
+    <View
+        android:id="@+id/SleepAlarmSettingLine6"
+        android:layout_width="290dp"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingMenu5"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGray3"/>
+
+    <TextView
+        android:id="@+id/SleepAlarmSettingMenu6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알람과 함께 진동"
+        app:layout_constraintStart_toStartOf="@+id/SleepAlarmSettingLine6"
+        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine6"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        />
+    <View
+        android:id="@+id/SleepAlarmSettingLine7"
+        android:layout_width="290dp"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingMenu6"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGray3"/>
+
+    <TextView
+        android:id="@+id/SleepAlarmSettingMenu7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다시 알림 주기"
+        app:layout_constraintStart_toStartOf="@+id/SleepAlarmSettingLine7"
+        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine7"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="oval">
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <solid android:color="@color/colorAccentSecondary" />
-</shape>
+    <!-- checked state start -->
+    <item android:state_checked="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/colorAccentSecondary" />
+        </shape>
+    </item>
+
+    <item android:state_checked="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/colorAccent" />
+        </shape>
+    </item>
+</selector>
