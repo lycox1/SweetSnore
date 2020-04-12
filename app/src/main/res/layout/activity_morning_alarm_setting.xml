@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.SleepAlarmSettingActivity">
+    tools:context=".ui.MorningAlarmSettingActivity">
 
     <TextView
-        android:id="@+id/SleepAlarmSettingTitle"
+        android:id="@+id/MorningAlarmSettingTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="잠자는 시간의 알람을 설정합니다"
+        android:text="모닝콜 알람을 설정합니다"
         android:fontFamily="@font/scdream5"
         android:textSize="20sp"
         app:layout_constraintTop_toTopOf="parent"
@@ -20,23 +20,23 @@
         />
 
     <View
-        android:id="@+id/SleepAlarmSettingLine1"
+        android:id="@+id/MorningAlarmSettingLine1"
         android:layout_width="290dp"
         android:layout_height="1dp"
         android:layout_centerInParent="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingTitle"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingTitle"
         android:layout_marginTop="32dp"
         android:background="@color/colorGray3"/>
 
     <TextView
-        android:id="@+id/tv_SleepAlarmSetting_Menu_OnOff"
+        android:id="@+id/tv_MorningAlarmSetting_Menu_OnOff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="알람켜기"
-        app:layout_constraintStart_toStartOf="@+id/SleepAlarmSettingLine1"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine1"
+        app:layout_constraintStart_toStartOf="@+id/MorningAlarmSettingLine1"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine1"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="7dp"
         android:fontFamily="@font/scdream5"
@@ -45,32 +45,32 @@
         />
 
     <Switch
-        android:id="@+id/swich_SleepAlarmSetting_Menu_OnOff"
+        android:id="@+id/swich_MorningAlarmSetting_Menu_OnOff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintRight_toRightOf="@+id/SleepAlarmSettingLine1"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine1"
+        app:layout_constraintRight_toRightOf="@+id/MorningAlarmSettingLine1"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine1"
         android:layout_marginTop="16dp"
         android:layout_marginRight="7dp"
         />
     <View
-        android:id="@+id/SleepAlarmSettingLine2"
+        android:id="@+id/MorningAlarmSettingLine2"
         android:layout_width="290dp"
         android:layout_height="1dp"
         android:layout_centerInParent="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_SleepAlarmSetting_Menu_OnOff"
+        app:layout_constraintTop_toBottomOf="@+id/tv_MorningAlarmSetting_Menu_OnOff"
         android:layout_marginTop="20dp"
         android:background="@color/colorGray3"/>
 
     <TextView
-        android:id="@+id/tv_SleepAlarmSetting_Menu_Timer"
+        android:id="@+id/tv_MorningAlarmSetting_Menu_Timer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="알람시간"
-        app:layout_constraintStart_toStartOf="@+id/SleepAlarmSettingLine2"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine2"
+        app:layout_constraintStart_toStartOf="@+id/MorningAlarmSettingLine2"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine2"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="7dp"
         android:fontFamily="@font/scdream5"
@@ -79,12 +79,12 @@
         />
 
     <TextView
-        android:id="@+id/tv_btn_SleepAlarmSetting_Menu_Timer"
+        android:id="@+id/tv_btn_MorningAlarmSetting_Menu_Timer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="--:-- >"
-        app:layout_constraintRight_toRightOf="@+id/SleepAlarmSettingLine2"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine2"
+        app:layout_constraintRight_toRightOf="@+id/MorningAlarmSettingLine2"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine2"
         android:layout_marginTop="20dp"
         android:layout_marginRight="7dp"
         android:textSize="12sp"
@@ -92,23 +92,23 @@
         />
 
     <View
-        android:id="@+id/SleepAlarmSettingLine3"
+        android:id="@+id/MorningAlarmSettingLine3"
         android:layout_width="290dp"
         android:layout_height="1dp"
         android:layout_centerInParent="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_SleepAlarmSetting_Menu_Timer"
+        app:layout_constraintTop_toBottomOf="@+id/tv_MorningAlarmSetting_Menu_Timer"
         android:layout_marginTop="20dp"
         android:background="@color/colorGray3"/>
 
     <TextView
-        android:id="@+id/tv_SleepAlarmSetting_Menu_Repeat"
+        android:id="@+id/tv_MorningAlarmSetting_Menu_Repeat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="반복"
-        app:layout_constraintStart_toStartOf="@+id/SleepAlarmSettingLine3"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine3"
+        app:layout_constraintStart_toStartOf="@+id/MorningAlarmSettingLine3"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine3"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="7dp"
         android:fontFamily="@font/scdream5"
@@ -117,12 +117,12 @@
         />
 
     <Button
-        android:id="@+id/btn_SleepAlarmSetting_Menu_Sunday"
+        android:id="@+id/btn_MorningAlarmSetting_Menu_Sunday"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:background="@drawable/btn_circle_small"
-        app:layout_constraintRight_toRightOf="@+id/SleepAlarmSettingLine3"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine3"
+        app:layout_constraintRight_toRightOf="@+id/MorningAlarmSettingLine3"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine3"
         android:layout_marginTop="15dp"
         android:layout_marginRight="7dp"
         android:text="일"
@@ -134,12 +134,12 @@
         />
 
     <Button
-        android:id="@+id/btn_SleepAlarmSetting_Menu_Saturday"
+        android:id="@+id/btn_MorningAlarmSetting_Menu_Saturday"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:background="@drawable/btn_circle_small"
-        app:layout_constraintRight_toLeftOf="@+id/btn_SleepAlarmSetting_Menu_Sunday"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine3"
+        app:layout_constraintRight_toLeftOf="@+id/btn_MorningAlarmSetting_Menu_Sunday"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine3"
         android:layout_marginTop="15dp"
         android:layout_marginRight="2dp"
         android:text="토"
@@ -151,12 +151,12 @@
         />
 
     <Button
-        android:id="@+id/btn_SleepAlarmSetting_Menu_Friday"
+        android:id="@+id/btn_MorningAlarmSetting_Menu_Friday"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:background="@drawable/btn_circle_small"
-        app:layout_constraintRight_toLeftOf="@+id/btn_SleepAlarmSetting_Menu_Saturday"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine3"
+        app:layout_constraintRight_toLeftOf="@+id/btn_MorningAlarmSetting_Menu_Saturday"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine3"
         android:layout_marginTop="15dp"
         android:layout_marginRight="2dp"
         android:text="금"
@@ -168,12 +168,12 @@
         />
 
     <Button
-        android:id="@+id/btn_SleepAlarmSetting_Menu_Thurthday"
+        android:id="@+id/btn_MorningAlarmSetting_Menu_Thurthday"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:background="@drawable/btn_circle_small"
-        app:layout_constraintRight_toLeftOf="@+id/btn_SleepAlarmSetting_Menu_Friday"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine3"
+        app:layout_constraintRight_toLeftOf="@+id/btn_MorningAlarmSetting_Menu_Friday"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine3"
         android:layout_marginTop="15dp"
         android:layout_marginRight="2dp"
         android:text="목"
@@ -185,12 +185,12 @@
         />
 
     <Button
-        android:id="@+id/btn_SleepAlarmSetting_Menu_Wednesday"
+        android:id="@+id/btn_MorningAlarmSetting_Menu_Wednesday"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:background="@drawable/btn_circle_small"
-        app:layout_constraintRight_toLeftOf="@+id/btn_SleepAlarmSetting_Menu_Thurthday"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine3"
+        app:layout_constraintRight_toLeftOf="@+id/btn_MorningAlarmSetting_Menu_Thurthday"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine3"
         android:layout_marginTop="15dp"
         android:layout_marginRight="2dp"
         android:text="수"
@@ -202,12 +202,12 @@
         />
 
     <Button
-        android:id="@+id/btn_SleepAlarmSetting_Menu_Tuesday"
+        android:id="@+id/btn_MorningAlarmSetting_Menu_Tuesday"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:background="@drawable/btn_circle_small"
-        app:layout_constraintRight_toLeftOf="@+id/btn_SleepAlarmSetting_Menu_Wednesday"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine3"
+        app:layout_constraintRight_toLeftOf="@+id/btn_MorningAlarmSetting_Menu_Wednesday"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine3"
         android:layout_marginTop="15dp"
         android:layout_marginRight="2dp"
         android:text="화"
@@ -219,12 +219,12 @@
         />
 
     <Button
-        android:id="@+id/btn_SleepAlarmSetting_Menu_Monday"
+        android:id="@+id/btn_MorningAlarmSetting_Menu_Monday"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:background="@drawable/btn_circle_small"
-        app:layout_constraintRight_toLeftOf="@+id/btn_SleepAlarmSetting_Menu_Tuesday"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine3"
+        app:layout_constraintRight_toLeftOf="@+id/btn_MorningAlarmSetting_Menu_Tuesday"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine3"
         android:layout_marginTop="15dp"
         android:layout_marginRight="2dp"
         android:text="월"
@@ -236,23 +236,23 @@
         />
 
     <View
-        android:id="@+id/SleepAlarmSettingLine4"
+        android:id="@+id/MorningAlarmSettingLine4"
         android:layout_width="290dp"
         android:layout_height="1dp"
         android:layout_centerInParent="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_SleepAlarmSetting_Menu_Repeat"
+        app:layout_constraintTop_toBottomOf="@+id/tv_MorningAlarmSetting_Menu_Repeat"
         android:layout_marginTop="20dp"
         android:background="@color/colorGray3"/>
 
     <TextView
-        android:id="@+id/tv_SleepAlarmSetting_Menu_AlarmSound"
+        android:id="@+id/tv_MorningAlarmSetting_Menu_AlarmSound"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="알람소리"
-        app:layout_constraintStart_toStartOf="@+id/SleepAlarmSettingLine4"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine4"
+        app:layout_constraintStart_toStartOf="@+id/MorningAlarmSettingLine4"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine4"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="7dp"
         android:fontFamily="@font/scdream5"
@@ -261,12 +261,12 @@
         />
 
     <TextView
-        android:id="@+id/tv_btn_SleepAlarmSetting_Menu_AlarmSound"
+        android:id="@+id/tv_btn_MorningAlarmSetting_Menu_AlarmSound"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="메모리 >"
-        app:layout_constraintRight_toRightOf="@+id/SleepAlarmSettingLine4"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine4"
+        app:layout_constraintRight_toRightOf="@+id/MorningAlarmSettingLine4"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine4"
         android:layout_marginTop="20dp"
         android:layout_marginRight="7dp"
         android:textSize="12sp"
@@ -274,23 +274,23 @@
         />
 
     <View
-        android:id="@+id/SleepAlarmSettingLine5"
+        android:id="@+id/MorningAlarmSettingLine5"
         android:layout_width="290dp"
         android:layout_height="1dp"
         android:layout_centerInParent="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_SleepAlarmSetting_Menu_AlarmSound"
+        app:layout_constraintTop_toBottomOf="@+id/tv_MorningAlarmSetting_Menu_AlarmSound"
         android:layout_marginTop="20dp"
         android:background="@color/colorGray3"/>
 
     <TextView
-        android:id="@+id/tv_SleepAlarmSetting_Menu_Volume"
+        android:id="@+id/tv_MorningAlarmSetting_Menu_Volume"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="소리크기"
-        app:layout_constraintStart_toStartOf="@+id/SleepAlarmSettingLine5"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine5"
+        app:layout_constraintStart_toStartOf="@+id/MorningAlarmSettingLine5"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine5"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="7dp"
         android:fontFamily="@font/scdream5"
@@ -298,32 +298,32 @@
         android:textColor="@color/colorBLack"
         />
     <SeekBar
-        android:id="@+id/seekbar_SleepAlarmSetting_Menu_Volume"
+        android:id="@+id/seekbar_MorningAlarmSetting_Menu_Volume"
         android:layout_width="170dp"
         android:layout_height="10dp"
-        app:layout_constraintRight_toRightOf="@+id/SleepAlarmSettingLine5"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine5"
+        app:layout_constraintRight_toRightOf="@+id/MorningAlarmSettingLine5"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine5"
         android:layout_marginTop="20dp"
         />
 
     <View
-        android:id="@+id/SleepAlarmSettingLine6"
+        android:id="@+id/MorningAlarmSettingLine6"
         android:layout_width="290dp"
         android:layout_height="1dp"
         android:layout_centerInParent="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_SleepAlarmSetting_Menu_Volume"
+        app:layout_constraintTop_toBottomOf="@+id/tv_MorningAlarmSetting_Menu_Volume"
         android:layout_marginTop="20dp"
         android:background="@color/colorGray3"/>
 
     <TextView
-        android:id="@+id/tv_SleepAlarmSetting_Menu_Vibration"
+        android:id="@+id/tv_MorningAlarmSetting_Menu_Vibration"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="알람과 함께 진동"
-        app:layout_constraintStart_toStartOf="@+id/SleepAlarmSettingLine6"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine6"
+        app:layout_constraintStart_toStartOf="@+id/MorningAlarmSettingLine6"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine6"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="7dp"
         android:fontFamily="@font/scdream5"
@@ -332,33 +332,33 @@
         />
 
     <Switch
-        android:id="@+id/switch_SleepAlarmSetting_Menu_Vibration"
+        android:id="@+id/switch_MorningAlarmSetting_Menu_Vibration"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintRight_toRightOf="@+id/SleepAlarmSettingLine6"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine6"
+        app:layout_constraintRight_toRightOf="@+id/MorningAlarmSettingLine6"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine6"
         android:layout_marginTop="16dp"
         android:layout_marginRight="7dp"
         />
 
     <View
-        android:id="@+id/SleepAlarmSettingLine7"
+        android:id="@+id/MorningAlarmSettingLine7"
         android:layout_width="290dp"
         android:layout_height="1dp"
         android:layout_centerInParent="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_SleepAlarmSetting_Menu_Vibration"
+        app:layout_constraintTop_toBottomOf="@+id/tv_MorningAlarmSetting_Menu_Vibration"
         android:layout_marginTop="20dp"
         android:background="@color/colorGray3"/>
 
     <TextView
-        android:id="@+id/tv_SleepAlarmSetting_Menu_Snooze"
+        android:id="@+id/tv_MorningAlarmSetting_Menu_Snooze"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="다시 알림 주기"
-        app:layout_constraintStart_toStartOf="@+id/SleepAlarmSettingLine7"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine7"
+        app:layout_constraintStart_toStartOf="@+id/MorningAlarmSettingLine7"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine7"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="7dp"
         android:fontFamily="@font/scdream5"
@@ -367,12 +367,12 @@
         />
 
     <TextView
-        android:id="@+id/tv_btn_SleepAlarmSetting_Menu_Snooze"
+        android:id="@+id/tv_btn_MorningAlarmSetting_Menu_Snooze"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="10분 >"
-        app:layout_constraintRight_toRightOf="@+id/SleepAlarmSettingLine7"
-        app:layout_constraintTop_toBottomOf="@+id/SleepAlarmSettingLine7"
+        app:layout_constraintRight_toRightOf="@+id/MorningAlarmSettingLine7"
+        app:layout_constraintTop_toBottomOf="@+id/MorningAlarmSettingLine7"
         android:layout_marginTop="20dp"
         android:layout_marginRight="7dp"
         android:textSize="12sp"
@@ -380,7 +380,7 @@
         />
 
     <View
-        android:id="@+id/bottomNavigation_SleepAlarmSetting"
+        android:id="@+id/bottomNavigation_MorningAlarmSetting"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@color/colorGray2"
@@ -389,7 +389,7 @@
         app:layout_constraintRight_toLeftOf="parent"
         />
     <Button
-        android:id="@+id/btn_SleepAlarmSetting_Complete"
+        android:id="@+id/btn_MorningAlarmSetting_Complete"
         android:layout_width="50dp"
         android:layout_height="38dp"
         android:background="@drawable/btn_rect_main_middle"
@@ -403,7 +403,7 @@
         android:layout_marginBottom="1dp"
         />
     <Button
-        android:id="@+id/btn_SleepAlarmSetting_Cancel"
+        android:id="@+id/btn_MorningAlarmSetting_Cancel"
         android:layout_width="50dp"
         android:layout_height="38dp"
         android:background="@drawable/btn_rect_main_middle"
@@ -412,7 +412,7 @@
         android:textSize="14sp"
         android:fontFamily="@font/scdream3"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/btn_SleepAlarmSetting_Complete"
+        app:layout_constraintRight_toLeftOf="@+id/btn_MorningAlarmSetting_Complete"
         android:layout_marginRight="0dp"
         android:layout_marginBottom="1dp"
         />
