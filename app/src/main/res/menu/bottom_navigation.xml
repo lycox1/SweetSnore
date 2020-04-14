@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_record"
+        android:title="녹음"
+        android:icon="@drawable/ic_record" />
+
+    <item android:id="@+id/action_result"
+        android:title="결과"
+        android:icon="@drawable/ic_chart" />
+
+    <item android:id="@+id/action_repot"
+        android:title="보고서"
+        android:icon="@drawable/ic_report" />
+
+    <item android:id="@+id/action_setting"
+        android:title="설정"
+        android:icon="@drawable/ic_setting" />
+
+</menu>

@@ -49,7 +49,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="7dp"
-        android:src="@drawable/icon_cold"
+        android:src="@drawable/ic_cold"
         app:layout_constraintLeft_toLeftOf="@id/btn_cold"
         app:layout_constraintRight_toRightOf="@id/btn_cold"
         app:layout_constraintTop_toTopOf="@id/btn_cold" />
@@ -83,7 +83,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="7dp"
-        android:src="@drawable/icon_excercise"
+        android:src="@drawable/ic_excercise"
         app:layout_constraintLeft_toLeftOf="@id/btn_excercise"
         app:layout_constraintRight_toRightOf="@id/btn_excercise"
         app:layout_constraintTop_toTopOf="@id/btn_excercise" />
@@ -117,7 +117,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="7dp"
-        android:src="@drawable/icon_drink"
+        android:src="@drawable/ic_drink"
         app:layout_constraintLeft_toLeftOf="@id/btn_drink"
         app:layout_constraintRight_toRightOf="@id/btn_drink"
         app:layout_constraintTop_toTopOf="@id/btn_drink" />
@@ -151,7 +151,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="7dp"
-        android:src="@drawable/icon_tired"
+        android:src="@drawable/ic_tired"
         app:layout_constraintLeft_toLeftOf="@id/btn_tired"
         app:layout_constraintRight_toRightOf="@id/btn_tired"
         app:layout_constraintTop_toTopOf="@id/btn_tired" />

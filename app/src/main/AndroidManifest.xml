@@ -15,7 +15,8 @@
         </activity>
         <activity android:name=".ui.MorningAlarmSettingActivity">
         </activity>
-        <activity android:name=".ui.SleepSongSettingActivity"></activity>
+        <activity android:name=".ui.SleepSongSettingActivity">
+        </activity>
         <activity android:name=".ui.SleepAlarmSettingActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

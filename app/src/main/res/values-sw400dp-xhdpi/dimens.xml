@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- mdpi * 1.14 -->
+
+    <!-- Main Activity -->
+    <dimen name="layer_main_middle_height">200dp</dimen>
+    <dimen name="layer_main_bottom_height">240dp</dimen>
+    <dimen name="layer_main_banner_height">69dp</dimen>
+    <dimen name="layer_main_bottom_navigation_height">59dp</dimen>
+
+    <dimen name="btn_main_middle_width">108dp</dimen>
+    <dimen name="btn_main_middle_height">133dp</dimen>
+    <dimen name="btn_main_bottom">83dp</dimen>
+
+    <!-- Setting Activity -->
+    <dimen name="view_line_setting">354dp</dimen>
+    <dimen name="btn_setting_bottom_nav_height">64dp</dimen>
+    <dimen name="btn_setting_accept_weight">87dp</dimen>
+    <dimen name="btn_setting_accept_height">62dp</dimen>
+
+</resources>

@@ -22,7 +22,7 @@
 
     <View
         android:id="@+id/SleepConditionSettingLine1"
-        android:layout_width="290dp"
+        android:layout_width="@dimen/view_line_setting"
         android:layout_height="1dp"
         android:layout_centerInParent="true"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -30,9 +30,8 @@
         app:layout_constraintTop_toBottomOf="@+id/SleepConditionSettingTitle"
         android:layout_marginTop="32dp"
         android:background="@color/colorGray3"/>
-
     <TextView
-        android:id="@+id/tv_SleepConditionSetting_Menu_OnOff"
+        android:id="@+id/tv_SleepConditionSetting_Menu_Normal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="평상시"
@@ -44,9 +43,8 @@
         android:textSize="14sp"
         android:textColor="@color/colorBLack"
         />
-
     <CheckBox
-        android:id="@+id/swich_SleepConditionSetting_Menu_OnOff"
+        android:id="@+id/swich_SleepConditionSetting_Menu_Normal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintRight_toRightOf="@+id/SleepConditionSettingLine1"
@@ -56,5 +54,207 @@
         android:button="@drawable/checkbox_circle"
         />
 
+    <View
+        android:id="@+id/SleepConditionSettingLine2"
+        android:layout_width="@dimen/view_line_setting"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_SleepConditionSetting_Menu_Normal"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorGray3"/>
+    <TextView
+        android:id="@+id/tv_SleepConditionSetting_Menu_light_drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가벼운 음주"
+        app:layout_constraintStart_toStartOf="@+id/SleepConditionSettingLine2"
+        app:layout_constraintTop_toBottomOf="@+id/SleepConditionSettingLine2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        android:fontFamily="@font/scdream5"
+        android:textSize="14sp"
+        android:textColor="@color/colorBLack"
+        />
+    <CheckBox
+        android:id="@+id/swich_SleepConditionSetting_light_drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="@+id/SleepConditionSettingLine2"
+        app:layout_constraintTop_toBottomOf="@+id/SleepConditionSettingLine2"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="7dp"
+        android:button="@drawable/checkbox_circle"
+        />
 
+    <View
+        android:id="@+id/SleepConditionSettingLine3"
+        android:layout_width="@dimen/view_line_setting"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_SleepConditionSetting_Menu_light_drink"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorGray3"/>
+    <TextView
+        android:id="@+id/tv_SleepConditionSetting_Menu_hard_drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="과음"
+        app:layout_constraintStart_toStartOf="@+id/SleepConditionSettingLine3"
+        app:layout_constraintTop_toBottomOf="@+id/SleepConditionSettingLine3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        android:fontFamily="@font/scdream5"
+        android:textSize="14sp"
+        android:textColor="@color/colorBLack"
+        />
+    <CheckBox
+        android:id="@+id/swich_SleepConditionSetting_Menu_hard_drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="@+id/SleepConditionSettingLine3"
+        app:layout_constraintTop_toBottomOf="@+id/SleepConditionSettingLine3"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="7dp"
+        android:button="@drawable/checkbox_circle"
+        />
+
+    <View
+        android:id="@+id/SleepConditionSettingLine4"
+        android:layout_width="@dimen/view_line_setting"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_SleepConditionSetting_Menu_hard_drink"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorGray3"/>
+    <TextView
+        android:id="@+id/tv_SleepConditionSetting_Menu_light_excercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가벼운 운동"
+        app:layout_constraintStart_toStartOf="@+id/SleepConditionSettingLine4"
+        app:layout_constraintTop_toBottomOf="@+id/SleepConditionSettingLine4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        android:fontFamily="@font/scdream5"
+        android:textSize="14sp"
+        android:textColor="@color/colorBLack"
+        />
+    <CheckBox
+        android:id="@+id/swich_SleepConditionSetting_Menu_light_excercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="@+id/SleepConditionSettingLine4"
+        app:layout_constraintTop_toBottomOf="@+id/SleepConditionSettingLine4"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="7dp"
+        android:button="@drawable/checkbox_circle"
+        />
+
+    <View
+        android:id="@+id/SleepConditionSettingLine5"
+        android:layout_width="@dimen/view_line_setting"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_SleepConditionSetting_Menu_light_excercise"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorGray3"/>
+    <TextView
+        android:id="@+id/tv_SleepConditionSetting_Menu_hard_excercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="격한 운동"
+        app:layout_constraintStart_toStartOf="@+id/SleepConditionSettingLine5"
+        app:layout_constraintTop_toBottomOf="@+id/SleepConditionSettingLine5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        android:fontFamily="@font/scdream5"
+        android:textSize="14sp"
+        android:textColor="@color/colorBLack"
+        />
+    <CheckBox
+        android:id="@+id/swich_SleepConditionSetting_Menu_hard_excercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="@+id/SleepConditionSettingLine5"
+        app:layout_constraintTop_toBottomOf="@+id/SleepConditionSettingLine5"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="7dp"
+        android:button="@drawable/checkbox_circle"
+        />
+
+    <View
+        android:id="@+id/SleepConditionSettingLine6"
+        android:layout_width="@dimen/view_line_setting"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_SleepConditionSetting_Menu_hard_excercise"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorGray3"/>
+    <TextView
+        android:id="@+id/tv_SleepConditionSetting_Menu_hard_eat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="과식"
+        app:layout_constraintStart_toStartOf="@+id/SleepConditionSettingLine6"
+        app:layout_constraintTop_toBottomOf="@+id/SleepConditionSettingLine6"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        android:fontFamily="@font/scdream5"
+        android:textSize="14sp"
+        android:textColor="@color/colorBLack"
+        />
+    <CheckBox
+        android:id="@+id/swich_SleepConditionSetting_Menu_hard_eat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="@+id/SleepConditionSettingLine6"
+        app:layout_constraintTop_toBottomOf="@+id/SleepConditionSettingLine6"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="7dp"
+        android:button="@drawable/checkbox_circle"
+        />
+
+    <View
+        android:id="@+id/SleepConditionSettingLine7"
+        android:layout_width="@dimen/view_line_setting"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_SleepConditionSetting_Menu_hard_eat"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorGray3"/>
+    <TextView
+        android:id="@+id/tv_SleepConditionSetting_Menu_no_dinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="저녁 굶음"
+        app:layout_constraintStart_toStartOf="@+id/SleepConditionSettingLine7"
+        app:layout_constraintTop_toBottomOf="@+id/SleepConditionSettingLine7"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        android:fontFamily="@font/scdream5"
+        android:textSize="14sp"
+        android:textColor="@color/colorBLack"
+        />
+    <CheckBox
+        android:id="@+id/swich_SleepConditionSetting_Menu_no_dinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="@+id/SleepConditionSettingLine7"
+        app:layout_constraintTop_toBottomOf="@+id/SleepConditionSettingLine7"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="7dp"
+        android:button="@drawable/checkbox_circle"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -21,7 +21,7 @@
 
     <View
         android:id="@+id/SleepSongSettingLine1"
-        android:layout_width="290dp"
+        android:layout_width="@dimen/view_line_setting"
         android:layout_height="1dp"
         android:layout_centerInParent="true"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -55,7 +55,7 @@
         />
     <View
         android:id="@+id/SleepSongSettingLine2"
-        android:layout_width="290dp"
+        android:layout_width="@dimen/view_line_setting"
         android:layout_height="1dp"
         android:layout_centerInParent="true"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -93,7 +93,7 @@
 
     <View
         android:id="@+id/SleepSongSettingLine3"
-        android:layout_width="290dp"
+        android:layout_width="@dimen/view_line_setting"
         android:layout_height="1dp"
         android:layout_centerInParent="true"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -237,7 +237,7 @@
 
     <View
         android:id="@+id/SleepSongSettingLine4"
-        android:layout_width="290dp"
+        android:layout_width="@dimen/view_line_setting"
         android:layout_height="1dp"
         android:layout_centerInParent="true"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -276,7 +276,7 @@
 
     <View
         android:id="@+id/SleepSongSettingLine5"
-        android:layout_width="290dp"
+        android:layout_width="@dimen/view_line_setting"
         android:layout_height="1dp"
         android:layout_centerInParent="true"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -310,7 +310,7 @@
     <View
         android:id="@+id/bottomNavigation_SleepSongSetting"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="@dimen/btn_setting_bottom_nav_height"
         android:background="@color/colorGray2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -318,8 +318,8 @@
         />
     <Button
         android:id="@+id/btn_SleepSongSetting_Complete"
-        android:layout_width="50dp"
-        android:layout_height="38dp"
+        android:layout_width="@dimen/btn_setting_accept_weight"
+        android:layout_height="@dimen/btn_setting_accept_height"
         android:background="@drawable/btn_rect_main_middle"
         android:text="완료"
         android:textColor="@color/colorBLack"
@@ -332,8 +332,8 @@
         />
     <Button
         android:id="@+id/btn_SleepSongSetting_Cancel"
-        android:layout_width="50dp"
-        android:layout_height="38dp"
+        android:layout_width="@dimen/btn_setting_accept_weight"
+        android:layout_height="@dimen/btn_setting_accept_height"
         android:background="@drawable/btn_rect_main_middle"
         android:text="취소"
         android:textColor="@color/colorBLack"
