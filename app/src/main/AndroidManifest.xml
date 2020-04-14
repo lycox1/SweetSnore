@@ -11,7 +11,10 @@
         android:theme="@style/AppTheme">
 
         <activity android:name=".ui.SleepConditionActivity">
-
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".ui.MorningAlarmSettingActivity">
         </activity>
@@ -19,10 +22,6 @@
         </activity>
         <activity android:name=".ui.SleepAlarmSettingActivity" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
