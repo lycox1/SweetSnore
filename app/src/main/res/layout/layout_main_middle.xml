@@ -12,8 +12,8 @@
     <!-- sleep alarm button start -->
     <ImageButton
         android:id="@+id/btn_sleep_alarm"
-        android:layout_width="90dp"
-        android:layout_height="117dp"
+        android:layout_width="@dimen/btn_main_middle_width"
+        android:layout_height="@dimen/btn_main_middle_height"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="22dp"
@@ -79,8 +79,8 @@
 
     <ImageButton
         android:id="@+id/btn_sleep_song"
-        android:layout_width="90dp"
-        android:layout_height="117dp"
+        android:layout_width="@dimen/btn_main_middle_width"
+        android:layout_height="@dimen/btn_main_middle_height"
         app:layout_constraintLeft_toRightOf="@id/btn_sleep_alarm"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="23dp"
@@ -146,8 +146,8 @@
     <!-- morning alarm button start -->
     <ImageButton
         android:id="@+id/btn_morning_alarm"
-        android:layout_width="90dp"
-        android:layout_height="117dp"
+        android:layout_width="@dimen/btn_main_middle_width"
+        android:layout_height="@dimen/btn_main_middle_height"
         app:layout_constraintLeft_toRightOf="@id/btn_sleep_song"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="23dp"

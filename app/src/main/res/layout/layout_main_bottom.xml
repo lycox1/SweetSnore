@@ -36,8 +36,8 @@
     <!-- cold button start -->
     <ImageButton
         android:id="@+id/btn_cold"
-        android:layout_width="72dp"
-        android:layout_height="72dp"
+        android:layout_width="@dimen/btn_main_bottom"
+        android:layout_height="@dimen/btn_main_bottom"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="45dp"
         android:background="@drawable/btn_rect_main_bottom"
@@ -70,8 +70,8 @@
     <!-- excercise button start -->
     <ImageButton
         android:id="@+id/btn_excercise"
-        android:layout_width="72dp"
-        android:layout_height="72dp"
+        android:layout_width="@dimen/btn_main_bottom"
+        android:layout_height="@dimen/btn_main_bottom"
         android:layout_marginLeft="14dp"
         android:layout_marginTop="45dp"
         android:background="@drawable/btn_rect_main_bottom"
@@ -104,8 +104,8 @@
     <!-- drink button start -->
     <ImageButton
         android:id="@+id/btn_drink"
-        android:layout_width="72dp"
-        android:layout_height="72dp"
+        android:layout_width="@dimen/btn_main_bottom"
+        android:layout_height="@dimen/btn_main_bottom"
         android:layout_marginLeft="14dp"
         android:layout_marginTop="45dp"
         android:background="@drawable/btn_rect_main_bottom"
@@ -138,8 +138,8 @@
     <!-- tired button start -->
     <ImageButton
         android:id="@+id/btn_tired"
-        android:layout_width="72dp"
-        android:layout_height="72dp"
+        android:layout_width="@dimen/btn_main_bottom"
+        android:layout_height="@dimen/btn_main_bottom"
         android:layout_marginLeft="14dp"
         android:layout_marginTop="45dp"
         android:background="@drawable/btn_rect_main_bottom"

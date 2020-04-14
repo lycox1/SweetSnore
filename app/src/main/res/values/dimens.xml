@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="btn_main_middle_width">90dp</dimen>
+    <dimen name="btn_main_middle_height">117dp</dimen>
+    <dimen name="btn_main_bottom">72dp</dimen>
+</resources>
